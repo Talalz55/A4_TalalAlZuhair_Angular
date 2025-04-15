@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
 @Component({
     selector: 'app-find-books',
     templateUrl: './find-books.component.html',
-    styleUrls: ['./find-books.component.css']
+    styleUrls: ['./find-books.component.css'],
 })
 export class FindBooksComponent implements OnInit {
     searchTerm: string = '';

@@ -7,7 +7,8 @@ import { Router } from '@angular/router';
 @Component({
     selector: 'app-create-book',
     templateUrl: './create-book.component.html',
-    styleUrls: ['./create-book.component.css']
+    styleUrls: ['./create-book.component.css'],
+
 })
 export class CreateBookComponent {
     book: Book = { id: 0, title: '', authorName: '', price: 0, quantity: 0 };

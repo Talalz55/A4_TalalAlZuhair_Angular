@@ -7,7 +7,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 @Component({
     selector: 'app-delete-book',
     templateUrl: './delete-book.component.html',
-    styleUrls: ['./delete-book.component.css']
+    styleUrls: ['./delete-book.component.css'],
 })
 export class DeleteBookComponent implements OnInit {
     book: Book | null = null;

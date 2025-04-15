@@ -19,10 +19,10 @@ import { DeleteBookComponent } from './delete-book/delete-book.component';
         FindBooksComponent,
         DeleteBookComponent,
         AppComponent,
+        HeaderComponent,
+        FooterComponent
     ],
     imports: [
-        HeaderComponent,
-        FooterComponent,
         BrowserModule,
         AppRoutingModule,
         FormsModule,
